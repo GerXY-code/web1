@@ -1,0 +1,110 @@
+body{
+background-image: url("chesswall.jpg");
+background-position: center;
+background-repeat: no-repeat;
+
+}
+
+.white{
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    font-size: 50px;
+    text-align: center;
+    color:black;
+}
+.black{
+    background-color: black;
+    width: 50px;
+    height: 50px;
+    font-size: 50px;
+    text-align: center;
+    color:white;
+}
+#tableOne{
+    border:5px solid sandybrown;
+    border-style:groove;
+    width:500px;
+    height:300px;
+    margin-top: 6%;
+    margin-left: 13%;
+    position: relative;
+    
+    
+}
+#externalBorder{
+  
+    height:1000px;
+    background-color: saddlebrown;
+    margin-top:10%;
+}
+#outerBorder{
+    border: 10px solid sandybrown;
+    border-style:groove;
+    width:660px;
+    height: 670px;
+    margin-left:30%;
+    margin-top: 7%;
+    border:10 solid black;
+    background-color:saddlebrown;
+   
+}
+img{
+    width:45px;
+    height:45px;
+   
+   
+}
+.letters{
+  
+    background-color: saddlebrown;
+    
+    
+}
+.lettersN{
+    font-size:30px;
+    color:white;
+}
+.lettersFlipped{
+    color:white;
+    font-size:30px;
+    transform:rotate(180deg) scaleY(1);
+}
+.numbers{
+    color:white;
+    text-align:center;
+    font-size:30px;
+    
+}
+.numbersFlipped{
+    color:white;
+    text-align:center;
+    font-size:30px;
+    transform:rotate(180deg) scaleY(1);
+}
+
+.navigationth{
+    border-spacing:60px;
+    font-size:30px;
+    margin:auto;
+   
+    
+}
+#navigation{
+    border: 6px solid red;
+    border-spacing:60px;
+    font-size:30px;
+    margin:auto;
+    
+}
+
+a{
+    text-decoration: none;
+    
+}
+a:visited{
+    color:blue;
+}
+a:hover{
+    color:red;
+}
